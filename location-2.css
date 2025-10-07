@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: rgba(213, 183, 142, 0.531);
+}
+img{
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.Trips{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f5e6be97;
+     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+     border-radius: 10px;
+    margin-right:40px
+}
+.trips-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+   justify-items: center;
+
+}
+
+.Trips h1, .Trips img, .Trips p,.Trips h3{
+   margin: 5px 0;
+  text-align: center;   
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.Quick-Facts{
+ display: flex;
+  flex-direction: column;
+  background-color: #f5e6be;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  max-width: 300px;
+  justify-self: flex-end;
+  position: absolute;
+  top: 1
+
+}
+.Quick-Facts li{
+  margin: 5px 0;
+  text-align: center;
+  font-size: 15px;
+
+}
+.Quick-Facts h4{
+   text-align: center;
+  margin-bottom: 10px;
+
+
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: #ffda76;
+    font-size: 30px;
+    border-bottom: 1px rgba(0, 0, 0, 0.514) solid;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: rgba(213, 183, 142, 0.531);
+}
+img{
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.Trips{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f5e6be97;
+     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+     border-radius: 10px;
+    margin-right:40px
+}
+.trips-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+   justify-items: center;
+
+}
+
+.Trips h1, .Trips img, .Trips p,.Trips h3{
+   margin: 5px 0;
+  text-align: center;   
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.side-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position:absolute;
+  top:1;
+}
+
+
+.Quick-Facts{
+ display: flex;
+  flex-direction: column;
+  background-color: #f5e6be;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  max-width: 300px;
+  justify-self: flex-end;
+  position: absolute;
+  top: 1
+
+}
+.Quick-Facts li{
+  margin: 5px 0;
+  text-align: center;
+  font-size: 15px;
+
+}
+.Quick-Facts h4{
+   text-align: center;
+  margin-bottom: 10px;
+
+
+}
+  .locations-link{
+  display: flex;
+  flex-direction: column;
+  background-color: #f5e6be;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  border:1px solid black;
+  border-radius: 10px;
+
+  }
+  .locations-link li{
+   margin: 5px 0;
+  text-align: center;
+}
+
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: #ffda76;
+    font-size: 30px;
+    border-bottom: 1px rgba(0, 0, 0, 0.514) solid;
+}
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: rgba(0, 31, 167, 0.435);
+}
+a:hover{
+  color:rgb(172, 172, 0)
+}
+
+@media (max-width: 700px) {
+  .Quick-Facts{
+    display: none;
+  }
+
+}
+
+.mobile-nav {
+  display: none;
+  margin: 10px;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: none;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #f5e6be;
+  color: black;
+  display: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff8dc;
+  min-width: 160px;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffda76;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media (max-width: 480px) {
+  .dropdown {
+    display: block;
+  }
+  .dropbtn{
+    display: block;
+  }
+
+  .locations-link {
+    display: none;
+  }
+}
+
+
+
+
